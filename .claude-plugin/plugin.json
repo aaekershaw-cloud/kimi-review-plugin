@@ -1,0 +1,15 @@
+{
+  "name": "kimi-review",
+  "version": "1.0.0",
+  "description": "Kimi code review integration for Claude Code",
+  "keywords": [
+    "code-review",
+    "kimi",
+    "review",
+    "adversarial-review",
+    "moonshot"
+  ],
+  "author": {
+    "name": "Andrew Kershaw"
+  }
+}

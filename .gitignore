@@ -1,0 +1,12 @@
+node_modules/
+package-lock.json
+*.log
+.DS_Store
+.env
+
+# Job state (user-specific)
+.kimi-review/
+
+# Test fixtures
+test-repos/
+*.diff

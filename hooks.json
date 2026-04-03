@@ -1,0 +1,12 @@
+{
+  "SessionStart": {
+    "handler": "scripts/session-lifecycle.mjs",
+    "args": ["SessionStart"],
+    "timeout_ms": 5000
+  },
+  "SessionEnd": {
+    "handler": "scripts/session-lifecycle.mjs",
+    "args": ["SessionEnd"],
+    "timeout_ms": 5000
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "name": "@andrewkershaw/kimi-review",
+  "version": "1.0.0",
+  "description": "Kimi code review integration for Claude Code",
+  "type": "module",
+  "exports": {
+    "./skills/*": "./skills/*.md",
+    "./prompts/*": "./prompts/*.md"
+  },
+  "claudeCode": {
+    "hooks": "./hooks.json",
+    "skills": {
+      "kimi:review": {
+        "description": "Run code review using Kimi CLI",
+        "handler": "scripts/kimi-companion.mjs",
+        "args": ["review"]
+      },
+      "kimi:adversarial-review": {
+        "description": "Challenge-focused code review",
+        "handler": "scripts/kimi-companion.mjs",
+        "args": ["adversarial-review"]
+      },
+      "kimi:status": {
+        "description": "Check background job status",
+        "handler": "scripts/kimi-companion.mjs",
+        "args": ["status"]
+      },
+      "kimi:result": {
+        "description": "Retrieve completed job results",
+        "handler": "scripts/kimi-companion.mjs",
+        "args": ["result"]
+      },
+      "kimi:cancel": {
+        "description": "Cancel running background job",
+        "handler": "scripts/kimi-companion.mjs",
+        "args": ["cancel"]
+      }
+    }
+  },
+  "dependencies": {
+    "uuid": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "keywords": [
+    "claude-code",
+    "kimi",
+    "code-review",
+    "plugin"
+  ],
+  "author": "Andrew Kershaw",
+  "license": "MIT"
+}
