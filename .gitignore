@@ -10,3 +10,4 @@ package-lock.json
 # Test fixtures
 test-repos/
 *.diff
+.omc/
