@@ -28,7 +28,7 @@ function parseArgs(args) {
     staged: false,
     branch: null,
     base: null,
-    model: 'moonshot-v1-8k',
+    model: 'default',
     jobId: null
   };
 

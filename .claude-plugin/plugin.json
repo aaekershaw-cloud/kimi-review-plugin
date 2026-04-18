@@ -11,5 +11,6 @@
   ],
   "author": {
     "name": "Andrew Kershaw"
-  }
+  },
+  "skills": "./skills/"
 }

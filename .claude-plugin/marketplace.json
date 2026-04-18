@@ -1,0 +1,27 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "kimi-review",
+  "description": "Kimi code review integration for Claude Code",
+  "owner": {
+    "name": "Andrew Kershaw"
+  },
+  "plugins": [
+    {
+      "name": "kimi-review",
+      "description": "Code review using Kimi CLI - standard review, adversarial review, and background job management",
+      "version": "1.0.0",
+      "author": {
+        "name": "Andrew Kershaw"
+      },
+      "source": "./",
+      "category": "code-quality",
+      "tags": [
+        "code-review",
+        "kimi",
+        "moonshot",
+        "adversarial-review"
+      ]
+    }
+  ],
+  "version": "1.0.0"
+}
